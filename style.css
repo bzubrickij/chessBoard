@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+table tr td:nth-of-type(odd) div {
+  background: #f05712;
+  width: 100px;
+  height: 100px;
+  border: #2cd64d 5px solid;
+  margin: 20px;
+}
+table tr td:nth-of-type(odd) div p {
+  background: #2cd64d;
+  width: 33px;
+  height: 33px;
+  margin: 33px;
+}
+table tr td:nth-of-type(even) div {
+  background: #2cd64d;
+  width: 100px;
+  height: 100px;
+  border: #f05712 5px solid;
+  margin: 20px;
+}
+table tr td:nth-of-type(even) div p {
+  background: #f05712;
+  width: 33px;
+  height: 33px;
+  margin: 33px;
+}
